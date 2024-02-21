@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithms_DFS", "Algorithms_DFS.vcxproj", "{45036D42-2BCE-4070-A856-EFD93218851E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45036D42-2BCE-4070-A856-EFD93218851E}.Debug|x64.ActiveCfg = Debug|x64
+		{45036D42-2BCE-4070-A856-EFD93218851E}.Debug|x64.Build.0 = Debug|x64
+		{45036D42-2BCE-4070-A856-EFD93218851E}.Debug|x86.ActiveCfg = Debug|Win32
+		{45036D42-2BCE-4070-A856-EFD93218851E}.Debug|x86.Build.0 = Debug|Win32
+		{45036D42-2BCE-4070-A856-EFD93218851E}.Release|x64.ActiveCfg = Release|x64
+		{45036D42-2BCE-4070-A856-EFD93218851E}.Release|x64.Build.0 = Release|x64
+		{45036D42-2BCE-4070-A856-EFD93218851E}.Release|x86.ActiveCfg = Release|Win32
+		{45036D42-2BCE-4070-A856-EFD93218851E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEF99DA1-8BDB-4B74-9CE9-F43CCE69C352}
+	EndGlobalSection
+EndGlobal
