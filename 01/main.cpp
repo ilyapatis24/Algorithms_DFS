@@ -10,7 +10,7 @@ private:
     int vertices; // Количество вершин
     int currentVertex; // Счетчик для заполнения массива порядка посещенных вершин
 
-    void dfs(int vertex) // Функция для работы метода dfs(). Запуск обхода в графе с вершины vertex и со вспомогательным массивом посещенных вершин. Закинул ее в private, чтобы не была доступна извне.
+    void dfs(int vertex) // Функция для работы метода dfs(). Запуск обхода в графе с вершины vertex и со вспомогательным массивом посещенных вершин.
     {
         visited[vertex] = true; // Помечаем, что посетили вершину
         currentVertex += 1;
@@ -144,7 +144,7 @@ int main(int argc, char** argv)
 
         Graph graph(vertices); // Создаю граф
 
-        fillGraph(graph, vertices, file); //Заполоняю его из файла
+        fillGraph(graph, vertices, file); //Заполняю его из файла
 
         std::cout << "Порядок обхода вершин: ";
         graph.dfs(); // Обхожу граф
